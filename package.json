@@ -1,0 +1,29 @@
+{
+  "name": "kv4cf",
+  "version": "0.1.0",
+  "description": "Routes requests to Cloudflare Workers KV assets",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SukkaW/cloudflare-kv-handler.git"
+  },
+  "keywords": [
+    "Cloudflare",
+    "cloudflare-workers"
+  ],
+  "author": "Sukka <https://skk.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SukkaW/cloudflare-kv-handler/issues"
+  },
+  "homepage": "https://github.com/SukkaW/cloudflare-kv-handler#readme",
+  "dependencies": {
+    "mime": "^2.4.6"
+  }
+}
