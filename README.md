@@ -1,14 +1,22 @@
 # kv4cf
 
-A modified version of [`@cloudflare/kv-asset-handler`](https://www.npmjs.com/package/@cloudflare/kv-asset-handler), with Non-ASCII URL supported.
+A modified version of [`@cloudflare/kv-asset-handler`](https://www.npmjs.com/package/@cloudflare/kv-asset-handler).
 
 [![](https://img.shields.io/npm/v/kv4cf.svg?style=flat-square)](https://www.npmjs.com/package/kv4cf) ![](https://img.shields.io/npm/dt/kv4cf?style=flat-square) ![](https://img.shields.io/npm/l/kv4cf.svg?style=flat-square)
 
 
+## Features
+
+- Non-ASCII URL supported
+- Correct ETag logic (The implementation of `@cloudflare/kv-asset-handler` is broken)
+- Better performance for large scale of website
+
 ## Installation
 
 ```bash
+# @cloudflare/kv-asset-handler go away
 npm uninstall @cloudflare/kv-asset-handler
+# Say hello to kv4cf
 npm install kv4cf
 ```
 
